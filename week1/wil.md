@@ -34,8 +34,7 @@ http response의 구성
 
 API: 한 프로그램이 다른 프로그램의 기능이나 데이터를 사용할 수 있도록 미리 정해농은 약속
 
-
-![alt text](gdg1주차.png)
+![](2025-09-29-22-59-47.png)
 
 
 상품 정보 등록
@@ -76,6 +75,3 @@ uri :/order/{orderid}
 상품 취소
 http method: delete
 uri :/goods/{orderid}
-
-
-
