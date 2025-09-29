@@ -33,3 +33,49 @@ http response의 구성
 프론트: 응답받은 데이터 렌더링
 
 API: 한 프로그램이 다른 프로그램의 기능이나 데이터를 사용할 수 있도록 미리 정해농은 약속
+
+
+![alt text](gdg1주차.png)
+
+
+상품 정보 등록
+http method: post
+uri :/goods
+
+상품 목록 조회
+http method: get
+uri :/goods
+
+개별 상품 정보 상세 조회
+http method: get
+uri :/goods/{goodsid}
+
+상품 정보 수정
+http method: patch
+uri :/goods/{goodsid}
+
+상품 삭제
+http method: delete
+uri :/goods/{goodsid}
+
+
+
+
+주문 정보 생성
+http method: post
+uri :/order
+
+주문 목록 조회
+http method: get
+uri :/order
+
+개별 주문 정보 상세 조회
+http method: get
+uri :/order/{orderid}
+
+상품 취소
+http method: delete
+uri :/goods/{orderid}
+
+
+
